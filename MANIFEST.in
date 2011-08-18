@@ -1,0 +1,15 @@
+include CHANGES
+include INSTALL
+include LICENSE
+include README
+include TODO
+include setup.py
+recursive-include 3rd *
+recursive-include tools *
+recursive-include bin *
+recursive-include data *
+recursive-include doc *
+recursive-include db *
+recursive-include mindboggle-db *
+recursive-include web *
+prune build
